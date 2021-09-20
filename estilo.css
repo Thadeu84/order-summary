@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0e8ff url(../images/pattern-background-desktop.svg) center/cover no-repeat;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    font-size: 16.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.img__hero {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.content {
+    background: #fff;
+    margin-top: 0;
+    height: 50%;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.01rem;
+    box-shadow: 2px 5px 13px 0px #7c7c7c66;
+    padding: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    color: gray;
+}
+
+.plan__sheet {
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.plan--header {
+    color: #1f2f56;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.plan--para {
+    margin-top: 0;
+    color: #7280a7;
+    margin-left: 1.1rem;
+}
+
+.anchor {
+    color: hsl(245, 75%, 52%);
+    margin-left: auto;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.anchor:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.img--plan {
+    width: 48px;
+    height: 48px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1f2f56;
+    margin-top: 0;
+}
+
+.btn--primary {
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 1.1rem 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    box-shadow: 0 16px 20px #c7cff3;
+    transition: 0.5s ease-in-out;
+}
+
+.btn--primary:hover {
+    opacity: 0.7;
+}
+
+.btn--secondary {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #1f2f56;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    opacity: 0.7;
+    margin-top: 10px;
+}
